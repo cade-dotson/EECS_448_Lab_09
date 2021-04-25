@@ -1,0 +1,70 @@
+h1{
+  font-family: Arial;
+  font-size: 40pt;
+  background-color: black;
+  color: lightblue;
+  text-align: center;
+  margin-top: -11px;
+  margin-left: -11px;
+  margin-right: -11px;
+  height: 200px;
+  line-height: 3.5;
+}
+
+h2{
+  font-family: Arial;
+  font-size: 40pt;
+  background-color: black;
+  color:lightblue;
+  text-align: center;
+  margin-top: -11px;
+  margin-left: -11px;
+  margin-right: -11px;
+  height: 200px;
+  line-height: 3.5;
+}
+
+h3{
+  font-family: Arial;
+  font-size: 20pt;
+  color: black;
+  text-align: left;
+  margin-left: 40px;
+}
+
+h4{
+  font-family: Arial;
+  font-size: 15pt;
+  color: red;
+  text-align: left;
+  margin-left: 40px;
+}
+
+img{
+  margin-left: 40px;
+}
+
+P{
+  margin-left:52px;
+  font-family: Arial;
+}
+
+label{
+  margin-left:40px;
+  font-family: Arial;
+}
+
+table{
+  border: 1px solid black;
+  margin-left: 40px;
+}
+
+th{
+  border: 1px solid black;
+  background-color: lightgray;
+}
+
+td{
+  border: 1px solid black;
+  background-color: violet;
+}

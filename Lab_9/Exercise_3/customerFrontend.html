@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Buystuffplz</title>
+    <script type="text/javascript" src="formChecker.js"></script>
+    <link href="style.css"
+        rel="stylesheet"
+        type="text/css"/>
+  <head>
+  <body>
+    <h1>Welcome to the Good Doots online store!
+    <h3>Our wares:</h3>
+    <hr>
+    <form onsubmit="return formChecker()" action="customerBackend.php" method="post">
+
+      <p>Original Doot<br><br>Price: $1,000</p>
+      <img src=Doot_1.jfif>
+      <br><br>
+      <label for="doot1">Quantity:</label>
+      <input type="number" id="doot1" name="doot1quantity" min="0" value="0">
+      <br><br>
+      <hr>
+
+
+      <p>Doom Themed Doot<br><br>Price: $1,500</p>
+      <img src=Doot_2.jfif>
+      <br><br>
+      <label for="doot2">Quantity:</label>
+      <input type="number" id="doot2" name="doot2quantity" min="0" value="0">
+      <br><br>
+      <hr>
+
+      <p>Angry Doot (It Moves!)<br><br>Price: $2,500</p>
+      <img src=Doot_3.gif>
+      <br><br>
+      <label for="doot3">Quantity:</label>
+      <input type="number" id="doot3" name="doot3quantity" min="0" value="0">
+      <br><br>
+      <hr>
+
+      <h3>Account Info:</h3>
+      Username(Email Address): <input type="text" id="username" name="name"><br><br>
+      Password: <input type="password" id="password" name="password"><br>
+
+      <h3>Select Shipping:</h3>
+      <input type="radio" id="free" name="shipping" value="0">
+      <label for="free">FREE seven day</label><br>
+      <input type="radio" id="three" name="shipping" value="5">
+      <label for="three">$5.00 three day</label><br>
+      <input type="radio" id="overnight" name="shipping" value="50">
+      <label for="overnight">$50.00 overnight</label><br><br>
+
+      <input type="submit">
+      <input type="reset">
+
+    </form>
+  </body>
+
+
+</html>
